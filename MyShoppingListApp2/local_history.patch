@@ -1,0 +1,26 @@
+Index: app/src/main/java/eu/tutorials/myshoppinglistapp/ShoppingList.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/eu/tutorials/myshoppinglistapp/ShoppingList.kt b/app/src/main/java/eu/tutorials/myshoppinglistapp/ShoppingList.kt
+--- a/app/src/main/java/eu/tutorials/myshoppinglistapp/ShoppingList.kt	
++++ b/app/src/main/java/eu/tutorials/myshoppinglistapp/ShoppingList.kt	(date 1706593547034)
+@@ -153,7 +153,7 @@
+     floatingActionButton = {
+         FloatingActionButton(
+             modifier = Modifier
+-                .padding( bottom = 485.dp)
++                .padding( bottom = 463.dp,start=260.dp)
+                 .size(30.dp),
+             contentColor = Color.White,
+             shape= RoundedCornerShape(2.dp),
+@@ -432,7 +432,7 @@
+                         }
+                     }
+ 
+-                    Icon(imageVector = Icons.Default.LocationOn,contentDescription = null,tint= Color.White,modifier= Modifier.size(28.dp))
++
+ 
+ 
+ 
